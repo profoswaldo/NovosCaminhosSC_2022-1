@@ -1,0 +1,16 @@
+
+public class Principal {
+
+	public static void main(String[] args) {
+		
+		Calculadora aux = new Calculadora();
+		
+
+		
+		
+		System.out.println("Produto: " + aux.produto);
+		
+
+	}
+
+}
