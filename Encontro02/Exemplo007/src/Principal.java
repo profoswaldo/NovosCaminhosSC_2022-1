@@ -19,5 +19,6 @@ public class Principal {
 		media=(nota1 + nota2 + nota3)/3;
 		
 		System.out.println("Média: " + media);	
+
 	}
 }

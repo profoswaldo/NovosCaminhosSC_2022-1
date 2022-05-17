@@ -1,0 +1,13 @@
+package telas;
+
+public class TelaOutputFuncionario {
+	
+	String nome;
+	double salarioLiquido;
+	
+	public void exibirFuncionario() {
+		System.out.println("Nome: " + nome
+	            + " Salário Líquido: " + salarioLiquido);
+	}
+
+}

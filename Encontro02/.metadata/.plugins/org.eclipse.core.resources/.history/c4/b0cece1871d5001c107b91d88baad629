@@ -1,0 +1,7 @@
+
+public class Funcionario {
+	
+	String nome;
+	double salarioBruto, desconto, salarioLiquido;
+
+}

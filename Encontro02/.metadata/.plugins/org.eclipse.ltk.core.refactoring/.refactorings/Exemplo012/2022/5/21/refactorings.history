@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;telas.TelaFuncionario&apos; to &apos;TelaInputFuncionario&apos;&#x0D;&#x0A;- Original project: &apos;Exemplo012&apos;&#x0D;&#x0A;- Original element: &apos;telas.TelaFuncionario&apos;&#x0D;&#x0A;- Renamed element: &apos;telas.TelaInputFuncionario&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;TelaFuncionario&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;telas{TelaFuncionario.java[TelaFuncionario" matchStrategy="1" name="TelaInputFuncionario" qualified="false" references="true" similarDeclarations="false" stamp="1652745056271" textual="false" version="1.0"/>
+</session>

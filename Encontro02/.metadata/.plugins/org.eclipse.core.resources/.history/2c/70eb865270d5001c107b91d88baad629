@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class Principal {
+
+	public static void main(String[] args) {
+
+		Scanner input = new Scanner(System.in);
+		
+		String nome;
+		double salarioBruto, desconto, salarioLiquido;
+		
+		System.out.print("Digite o seu nome: ");
+		nome = input.next();
+		
+		System.out.print("Digite o valor do Salário Bruto: ");
+		salarioBruto = input.nextDouble();
+		
+		desconto = 100;
+		
+		salarioLiquido = salarioBruto - desconto;
+		
+		System.out.println("Nome: " + nome
+				            + " Salário Líquido: " + salarioLiquido);
+		
+
+	}
+
+}

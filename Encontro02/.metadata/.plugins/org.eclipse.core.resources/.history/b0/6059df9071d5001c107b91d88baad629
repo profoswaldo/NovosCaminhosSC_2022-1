@@ -1,0 +1,16 @@
+
+public class Funcionario {
+	
+	String nome;
+	double salarioBruto, desconto, salarioLiquido;
+	
+	
+	void ler() {
+		
+	}
+	
+	void calcularSalarioLiquido() {
+		salarioLiquido = salarioBruto - desconto;
+	}
+
+}
