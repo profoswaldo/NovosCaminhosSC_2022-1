@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+public class Principal {
+
+	public static void main(String[] args) {
+
+		Scanner input = new Scanner(System.in);
+		
+		double modulos[][] = new double[2][3];
+		
+		System.out.print("Digite a nota da AV1 no modulo 1: ");
+		modulos[0][0] = input.nextDouble();
+		
+		System.out.print("Digite a nota da AV2 no modulo 1: ");
+		modulos[0][1] = input.nextDouble();
+		
+		System.out.print("Digite a nota da AV3 no modulo 1: ");
+		modulos[0][2] = input.nextDouble();
+
+		System.out.print("Digite a nota da AV1 no modulo 2: ");
+		modulos[1][0] = input.nextDouble();
+		
+		System.out.print("Digite a nota da AV2 no modulo 2: ");
+		modulos[1][1] = input.nextDouble();
+		
+		System.out.print("Digite a nota da AV3 no modulo 2: ");
+		modulos[1][2] = input.nextDouble();
+		
+		
+		
+	}
+
+}
