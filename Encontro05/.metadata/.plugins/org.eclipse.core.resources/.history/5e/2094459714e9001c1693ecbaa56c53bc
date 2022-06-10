@@ -1,0 +1,19 @@
+
+public class Aluno {
+	int matricula;
+	String nome;
+	double teste, prova;
+
+	double calcularMedia() {
+		return (teste + prova) / 2;
+	}
+
+	
+	String obterSituacao() {
+		if (calcularMedia() >= 7)
+			return "Aprovado";
+		else
+			return "Reprovado";
+	}
+
+}
