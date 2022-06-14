@@ -1,0 +1,17 @@
+package novos.caminhos.gui;
+
+import java.util.Scanner;
+
+public class TelaEntrada {
+	
+	private Scanner input = new Scanner(System.in);
+	
+	public double obterValor(String numero) {
+	   System.out.print("Digite o valor " + numero + ": ");
+	   return input.nextDouble();
+	}
+
+	System.out.print("DIgite 1 para soma, 2-subtracao ou 0 para sair: ");
+	operacao = input.nextInt();
+
+}

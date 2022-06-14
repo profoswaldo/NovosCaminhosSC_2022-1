@@ -1,0 +1,8 @@
+package novos.caminhos.gui;
+
+public class TelaSaida {
+
+	public void exibir(double resultado) {
+		System.out.println("Resultado: " + resultado);
+	}
+}

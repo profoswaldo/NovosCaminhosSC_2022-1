@@ -1,0 +1,12 @@
+package novos.caminhos.discentes;
+
+public class Aluno {
+	
+	private double teste, prova;
+	
+	
+	public double getMedia(double teste, double prova) {
+		
+	}
+
+}

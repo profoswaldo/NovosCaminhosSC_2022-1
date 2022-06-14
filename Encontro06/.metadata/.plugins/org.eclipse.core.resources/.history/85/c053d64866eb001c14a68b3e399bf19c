@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class Principal {
+
+	public static void main(String[] args) {
+
+		Scanner input = new Scanner(System.in);
+		
+		double valor1, valor2;
+		int operacao;
+		
+		
+		System.out.print("DIgite o valor 1: ");
+		valor1 = input.nextDouble();
+		
+		System.out.print("DIgite o valor 2: ");
+		valor2 = input.nextDouble();
+		
+		System.out.print("DIgite a operacao desejada: ");
+		operacao = input.nextInt();
+		
+		
+		
+		
+
+	}
+
+}

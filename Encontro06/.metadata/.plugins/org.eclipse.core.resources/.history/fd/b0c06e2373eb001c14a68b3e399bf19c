@@ -1,0 +1,57 @@
+package novos.caminhos.discentes;
+
+public class Aluno {
+
+	private String nome, matricula;
+	private double teste, prova;
+	
+	public void setMatricula(String aux) {
+		matricula = aux;
+	}
+	
+	public void setNome(String aux) {
+		nome = aux;
+	}
+	
+
+	public void setTeste(double aux) {
+		teste = aux;
+	}
+
+	public void setProva(double aux) {
+		prova = aux;
+	}
+	
+	public String getMatricula() {
+		return matricula;
+	}
+	
+	public String getNome() {
+		return nome;
+	}
+	
+	public double getTeste() {
+		return teste;
+	}
+	
+	public double getProva() {
+		return prova;
+	}
+
+	public double getMedia() {
+		return (teste + prova) / 2;
+	}
+
+	public String getStatus() {
+		if (getMedia() >= 7) {
+			return "Aprovado";
+		} else {
+			if (getMedia() < 4) {
+				return "Reprovado";
+			} else {
+				return "Final";
+			}
+		}
+	}
+
+}

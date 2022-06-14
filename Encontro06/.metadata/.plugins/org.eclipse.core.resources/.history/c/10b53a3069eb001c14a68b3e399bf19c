@@ -1,0 +1,8 @@
+package novos.caminhos.utilitarios;
+
+public class Calculadora {
+	
+    public double obterSoma() {
+	 return valor1 + valor2;
+	}
+}

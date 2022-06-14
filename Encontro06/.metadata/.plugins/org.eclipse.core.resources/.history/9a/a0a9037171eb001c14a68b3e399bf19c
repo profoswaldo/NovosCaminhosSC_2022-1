@@ -1,0 +1,16 @@
+package novos.caminhos.discentes;
+
+public class Aluno {
+	
+	private double teste, prova;
+	
+	public void configurarTeste(double aux) {
+		teste = aux;
+	}
+	
+	
+	public double getMedia(, double prova) {
+		
+	}
+
+}
