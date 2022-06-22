@@ -1,0 +1,9 @@
+
+public class TelaSaida {
+	
+	
+	public void exibir(Aluno aluno) {
+		
+	}
+
+}

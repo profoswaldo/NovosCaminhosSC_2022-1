@@ -1,0 +1,14 @@
+
+public class Calculadora {
+
+	double pi;
+	
+	void setPi() {
+		pi = 3.14;
+	}
+	
+	double getPi() {
+		return pi;
+	}
+	
+}

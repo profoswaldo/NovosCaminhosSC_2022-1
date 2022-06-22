@@ -1,0 +1,11 @@
+import java.util.Scanner;
+
+public class TelaEntrada {
+	
+	private Scanner teclado;
+	
+	public TelaEntrada() {
+		teclado = new Scanner(System.in);
+	}
+
+}

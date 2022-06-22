@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename method &apos;Calculadora.setPi()&apos; to &apos;getPi&apos;&#x0D;&#x0A;- Original project: &apos;Exemplo003&apos;&#x0D;&#x0A;- Original element: &apos;Calculadora.setPi()&apos;&#x0D;&#x0A;- Renamed element: &apos;Calculadora.getPi()&apos;&#x0D;&#x0A;- Update references to refactored element" delegate="false" deprecate="false" description="Rename method &apos;setPi&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.method" input="/src&lt;{Calculadora.java[Calculadora~setPi" name="getPi" references="true" stamp="1655850671926" version="1.0"/>
+</session>

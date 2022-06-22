@@ -1,0 +1,10 @@
+
+public class Calculadora {
+
+	double pi;
+	
+	double getPi() {
+		return pi = 3.14;
+	}
+	
+}
