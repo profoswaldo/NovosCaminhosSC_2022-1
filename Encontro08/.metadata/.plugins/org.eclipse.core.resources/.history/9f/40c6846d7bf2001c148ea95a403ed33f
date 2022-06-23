@@ -1,0 +1,20 @@
+
+public class Banco {
+	
+	public void incluir(Pessoa pessoa) {
+		
+	}
+	
+	public void excluir(Pessoa pessoa) {
+		
+	}
+	
+	public void alterar(Pessoa pessoa) {
+		
+	}
+	
+	public Pessoa consultar(Pessoa pessoa) {
+		return null;
+	}
+
+}

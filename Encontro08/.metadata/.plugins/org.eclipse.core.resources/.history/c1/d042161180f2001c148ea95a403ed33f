@@ -1,0 +1,13 @@
+
+public class Principal {
+
+	public static void main(String[] args) {
+		
+		final String usuario = "postgres";
+		final String senha = "aluno123";
+		final String url = "jdbc:postgresql://localhost:5432/postgres";
+		final String instrucao_insert = "INSERT INTO pessoa (id, nome) VALUES(?,?)";
+
+	}
+
+}

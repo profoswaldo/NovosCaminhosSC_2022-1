@@ -1,0 +1,8 @@
+INDEX VERSION 1.131+C:\Users\Oswaldo Peres\Documents\Aulas\Aulas 2022\Pronatec SC\Aulas\Encontro08\.metadata\.plugins\org.eclipse.jdt.core
+2624449730.index
+3478917396.index
+1292699491.index
+1781553541.index
+2162323331.index
+1865797976.index
+2174780185.index
