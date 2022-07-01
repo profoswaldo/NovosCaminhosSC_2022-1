@@ -1,0 +1,26 @@
+import java.awt.FlowLayout;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+
+public class Janela extends JFrame{
+	
+	private FlowLayout layout;
+	private JButton button;
+	private JLabel label;
+	
+	public Janela() {
+		button = new JButton("click");
+		label = new JLabel("Digite seu nome: ");
+		layout = new FlowLayout();
+		setLayout(layout);
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(500,200,300,150);
+		add(label);
+		add(button);
+		
+		
+	}
+
+}

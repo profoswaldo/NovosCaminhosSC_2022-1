@@ -1,0 +1,19 @@
+import java.awt.FlowLayout;
+
+import javax.swing.JFrame;
+
+public class Janela extends JFrame{
+	
+	private FlowLayout layout;
+	
+	public Janela() {
+		
+		layout = new FlowLayout();
+		setLayout(layout);
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(500,200,300,150);
+		
+		
+	}
+
+}
