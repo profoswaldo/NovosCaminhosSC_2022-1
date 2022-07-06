@@ -1,0 +1,32 @@
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JTextField;
+
+public class Tela extends JFrame implements ActionListener {
+	
+	private JLabel lblValor1;
+	private JLabel lblValor2;
+	private JLabel lblResultado;
+	
+	private JTextField txtValor1;
+	private JTextField txtValor2;
+	private JTextField txtResultado;
+	
+	private JButton btnSomar;
+	private JButton btnSubtrair;
+	private JButton btnMultiplicar;
+	private JButton btnDividir;
+	private JButton btnLimpar;
+	
+
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		
+
+	}
+
+}

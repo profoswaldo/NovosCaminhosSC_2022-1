@@ -1,0 +1,12 @@
+import javax.swing.JFrame;
+
+public class Janela extends JFrame{
+	
+	public Janela() {
+		setBounds(400, 250, 400, 200);
+		setTitle("Janela Principal");
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	}
+	
+
+}

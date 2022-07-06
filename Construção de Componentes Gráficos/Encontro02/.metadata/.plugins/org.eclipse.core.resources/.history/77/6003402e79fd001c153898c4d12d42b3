@@ -1,0 +1,10 @@
+import javax.swing.JFrame;
+
+public class Janela extends JFrame{
+	
+	public Janela() {
+		setBounds(300, 250, 400, 200);
+	}
+	
+
+}
