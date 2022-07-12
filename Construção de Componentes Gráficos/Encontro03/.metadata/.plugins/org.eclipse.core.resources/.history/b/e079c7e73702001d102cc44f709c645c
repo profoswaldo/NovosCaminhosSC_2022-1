@@ -1,0 +1,23 @@
+package controles;
+
+import modelo.Aluno;
+
+public class ControleAluno {
+	
+	public void incluir(String matricula, String nome, String teste, String prova ) {
+		
+	}
+	
+	public void excluir(Aluno aluno) {
+		
+	}
+	
+	public void alterar(Aluno aluno) {
+		
+	}
+	
+	public void consultar(Aluno aluno) {
+		
+	}
+
+}

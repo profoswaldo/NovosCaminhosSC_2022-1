@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="util.gui.TelaCadastroAluno"/>
+    <fullyQualifiedTypeName name="modelo.Aluno"/>
+    <fullyQualifiedTypeName name="controles.ControleAluno"/>
+    <fullyQualifiedTypeName name="modelo.Banco"/>
+    <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+</qualifiedTypeNameHistroy>

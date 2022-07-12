@@ -1,0 +1,21 @@
+package modelo;
+
+public class Banco {
+
+	public void incluir(Aluno aluno) {
+
+	}
+
+	public void excluir(Aluno aluno) {
+
+	}
+
+	public void alterar(Aluno aluno) {
+
+	}
+
+	public void consultar(Aluno aluno) {
+
+	}
+
+}

@@ -1,0 +1,111 @@
+package util.gui;
+
+import java.awt.BorderLayout;
+import java.awt.EventQueue;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
+import java.awt.FlowLayout;
+import javax.swing.JLabel;
+import javax.swing.JTextField;
+import javax.swing.JButton;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+
+public class TelaCadastroAluno extends JFrame {
+
+	private JPanel contentPane;
+	private JTextField textField;
+	private JTextField textField_1;
+	private JTextField textField_2;
+	private JTextField textField_3;
+	private JTextField textField_4;
+
+	/**
+	 * Launch the application.
+	 */
+
+
+	public TelaCadastroAluno() {
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(100, 100, 526, 330);
+		contentPane = new JPanel();
+		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+		setContentPane(contentPane);
+		contentPane.setLayout(null);
+		
+		JLabel lblNewLabel = new JLabel("Digite a matricula do Aluno:");
+		lblNewLabel.setBounds(35, 29, 136, 14);
+		contentPane.add(lblNewLabel);
+		
+		textField = new JTextField();
+		textField.setBounds(35, 56, 126, 20);
+		contentPane.add(textField);
+		textField.setColumns(10);
+		
+		JLabel lblNewLabel_1 = new JLabel("Digite o nome do Aluno:");
+		lblNewLabel_1.setBounds(201, 29, 184, 14);
+		contentPane.add(lblNewLabel_1);
+		
+		textField_1 = new JTextField();
+		textField_1.setBounds(201, 56, 283, 20);
+		contentPane.add(textField_1);
+		textField_1.setColumns(10);
+		
+		JLabel lblNewLabel_2 = new JLabel("Teste:");
+		lblNewLabel_2.setBounds(35, 113, 126, 14);
+		contentPane.add(lblNewLabel_2);
+		
+		textField_2 = new JTextField();
+		textField_2.setBounds(35, 138, 126, 20);
+		contentPane.add(textField_2);
+		textField_2.setColumns(10);
+		
+		JLabel lblNewLabel_3 = new JLabel("Prova:");
+		lblNewLabel_3.setBounds(201, 113, 46, 14);
+		contentPane.add(lblNewLabel_3);
+		
+		textField_3 = new JTextField();
+		textField_3.setBounds(201, 138, 126, 20);
+		contentPane.add(textField_3);
+		textField_3.setColumns(10);
+		
+		JLabel lblNewLabel_4 = new JLabel("Média:");
+		lblNewLabel_4.setBounds(359, 113, 46, 14);
+		contentPane.add(lblNewLabel_4);
+		
+		textField_4 = new JTextField();
+		textField_4.setBounds(359, 138, 126, 20);
+		contentPane.add(textField_4);
+		textField_4.setColumns(10);
+		
+		JButton btnNewButton = new JButton("Incluir");
+		btnNewButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+			}
+		});
+		btnNewButton.setBounds(35, 200, 89, 23);
+		contentPane.add(btnNewButton);
+		
+		JButton btnNewButton_1 = new JButton("Excluir");
+		btnNewButton_1.setBounds(158, 200, 89, 23);
+		contentPane.add(btnNewButton_1);
+		
+		JButton btnNewButton_2 = new JButton("Alterar");
+		btnNewButton_2.setBounds(277, 200, 89, 23);
+		contentPane.add(btnNewButton_2);
+		
+		JButton btnNewButton_3 = new JButton("Consultar");
+		btnNewButton_3.setBounds(395, 200, 89, 23);
+		contentPane.add(btnNewButton_3);
+		
+		JButton btnNewButton_4 = new JButton("Limpar");
+		btnNewButton_4.setBounds(277, 251, 89, 23);
+		contentPane.add(btnNewButton_4);
+		
+		JButton btnNewButton_5 = new JButton("Sair");
+		btnNewButton_5.setBounds(395, 251, 89, 23);
+		contentPane.add(btnNewButton_5);
+	}
+}

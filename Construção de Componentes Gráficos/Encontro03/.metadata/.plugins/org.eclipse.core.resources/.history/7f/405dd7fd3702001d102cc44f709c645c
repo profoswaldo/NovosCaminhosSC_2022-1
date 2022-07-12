@@ -1,0 +1,29 @@
+package controles;
+
+import modelo.Aluno;
+
+public class ControleAluno {
+	
+	private Aluno aluno;
+	
+	public void incluir(String matricula, String nome, String teste, String prova ) {
+		aluno = new Aluno();
+		aluno.setMatricula(matricula);
+		aluno.setNome(nome);
+		aluno.setTeste(Double.parseDouble(teste));
+		aluno.setProva(Double.parseDouble(prova));
+	}
+	
+	public void excluir(Aluno aluno) {
+		
+	}
+	
+	public void alterar(Aluno aluno) {
+		
+	}
+	
+	public void consultar(Aluno aluno) {
+		
+	}
+
+}

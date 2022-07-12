@@ -1,0 +1,8 @@
+package pessoas.discentes;
+
+public class Aluno {
+	
+	private String matricula, nome;
+	private double teste, prova;
+
+}
