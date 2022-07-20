@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">Exemplo0002-TableLayout</string>
-    <string name="loginForm">Tela de Login</string>
-    <string name="userName">Usuario</string>
-    <string name="password">Senha</string>
-    <string name="login">Entre</string>
-</resources>
