@@ -1,0 +1,65 @@
+package visão;
+
+import java.awt.FlowLayout;
+
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JTextField;
+import javax.swing.JButton;
+
+public class TelaCadastroAluno extends JFrame {
+	
+	private JTextField txtMatricula;
+	private JLabel lblMatricula;
+	private JTextField txtNome;
+	private JLabel lblNome;
+	private JButton btnIncluir;
+	private JButton btnExcluir;
+	private JButton btnAlterar;
+	private JButton btnConsultar;
+	private JButton btnLimpar;
+	private JButton btnSair;
+
+	public TelaCadastroAluno() {
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(100, 100, 460, 109);
+		getContentPane().setLayout(new FlowLayout());
+		
+		inicializarComponentes();
+		configurarComponentes();
+		adicionarComponentes();
+	}
+	
+	private void inicializarComponentes() {
+		lblMatricula = new JLabel("Matricula:");
+		txtMatricula = new JTextField();
+		lblNome = new JLabel("Nome:");
+		txtNome = new JTextField();
+		btnIncluir = new JButton("Incluir");
+		btnExcluir = new JButton("Excluir");
+		btnAlterar = new JButton("Alterar");
+		btnConsultar = new JButton("Consultar");
+		btnLimpar = new JButton("Limpar");
+		btnSair = new JButton("Sair");
+	}
+	
+	private void configurarComponentes() {
+		txtMatricula.setColumns(10);
+		txtNome.setColumns(25);
+		setTitle("Tela de Cadastro de Alunos");
+	}
+	
+	private void adicionarComponentes() {
+		getContentPane().add(lblMatricula);
+		getContentPane().add(txtMatricula);
+		getContentPane().add(lblNome);
+		getContentPane().add(txtNome);
+		getContentPane().add(btnIncluir);
+		getContentPane().add(btnExcluir);
+		getContentPane().add(btnAlterar);
+		getContentPane().add(btnConsultar);
+		getContentPane().add(btnLimpar);
+		getContentPane().add(btnSair);
+	}
+
+}

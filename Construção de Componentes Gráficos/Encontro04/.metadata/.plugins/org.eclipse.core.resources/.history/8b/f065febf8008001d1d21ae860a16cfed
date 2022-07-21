@@ -1,0 +1,39 @@
+package visão;
+
+import java.awt.FlowLayout;
+
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JTextField;
+
+public class TelaCadastroAluno extends JFrame {
+	
+	private JTextField txtMatricula;
+	private JLabel lblMatricula;
+
+	public TelaCadastroAluno() {
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(100, 100, 575, 365);
+		getContentPane().setLayout(new FlowLayout());
+		
+		inicializarComponentes();
+		configurarComponentes();
+		adicionarComponentes();
+	}
+	
+	private void inicializarComponentes() {
+		lblMatricula = new JLabel("Matricula:");
+		txtMatricula = new JTextField();
+	}
+	
+	private void configurarComponentes() {
+		txtMatricula.setColumns(10);
+		setTitle("Tela de Cadastro de Alunos");
+	}
+	
+	private void adicionarComponentes() {
+		add(lblMatricula);
+		add(txtMatricula);
+	}
+
+}

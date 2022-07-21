@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.awt.FlowLayout"/>
+    <fullyQualifiedTypeName name="visão.TelaCadastroAluno"/>
+    <fullyQualifiedTypeName name="modelos.persistencia.BancoAluno"/>
+    <fullyQualifiedTypeName name="modelos.pessoal.Aluno"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="controles.ControleAluno"/>
+</qualifiedTypeNameHistroy>

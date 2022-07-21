@@ -1,0 +1,34 @@
+package controles;
+
+import modelos.persistencia.BancoAluno;
+import modelos.pessoal.Aluno;
+
+public class ControleAluno {
+	
+	private BancoAluno banco;
+	private Aluno aluno;
+	
+	public ControleAluno() {
+		banco = new BancoAluno();
+	}
+
+	public void incluir(String matricula, String nome) {
+		aluno = new Aluno();
+		aluno.setMatricula(Integer.parseInt(matricula));
+		aluno.setNome(nome);
+		banco.incluir(aluno);
+	}
+
+	public void excluir(String matricula, String nome) {
+
+	}
+
+	public void alterar(String matricula, String nome) {
+
+	}
+
+	public void consultar(String matricula, String nome) {
+
+	}
+
+}

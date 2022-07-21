@@ -1,0 +1,50 @@
+package visão;
+
+import java.awt.FlowLayout;
+
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JTextField;
+import javax.swing.JButton;
+
+public class TelaCadastroAluno extends JFrame {
+	
+	private JTextField txtMatricula;
+	private JLabel lblMatricula;
+	private JTextField txtNome;
+	private JLabel lblNome;
+	private JButton btnIncluir;
+
+	public TelaCadastroAluno() {
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(100, 100, 410, 265);
+		getContentPane().setLayout(new FlowLayout());
+		
+		inicializarComponentes();
+		configurarComponentes();
+		adicionarComponentes();
+	}
+	
+	private void inicializarComponentes() {
+		lblMatricula = new JLabel("Matricula:");
+		txtMatricula = new JTextField();
+		lblNome = new JLabel("Nome:");
+		txtNome = new JTextField();
+		btnIncluir = new JButton("Incluir");
+	}
+	
+	private void configurarComponentes() {
+		txtMatricula.setColumns(10);
+		txtNome.setColumns(20);
+		setTitle("Tela de Cadastro de Alunos");
+	}
+	
+	private void adicionarComponentes() {
+		getContentPane().add(lblMatricula);
+		getContentPane().add(txtMatricula);
+		getContentPane().add(lblNome);
+		getContentPane().add(txtNome);
+		getContentPane().add(btnIncluir);
+	}
+
+}

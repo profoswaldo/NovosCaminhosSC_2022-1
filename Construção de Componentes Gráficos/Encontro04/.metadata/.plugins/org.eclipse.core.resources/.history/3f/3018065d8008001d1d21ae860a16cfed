@@ -1,0 +1,17 @@
+package visão;
+
+import java.awt.FlowLayout;
+
+import javax.swing.JFrame;
+
+public class TelaCadastroAluno extends JFrame {
+
+	public TelaCadastroAluno() {
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(100, 100, 575, 365);
+		setLayout(new FlowLayout());
+		setTitle("Tela de Cadastro de Alunos");
+
+	}
+
+}

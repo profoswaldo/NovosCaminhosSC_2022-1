@@ -1,0 +1,21 @@
+package controles;
+
+public class ControleAluno {
+
+	public void incluir(String matricula, String nome) {
+
+	}
+
+	public void excluir(String matricula, String nome) {
+
+	}
+
+	public void alterar(String matricula, String nome) {
+
+	}
+
+	public void consultar(String matricula, String nome) {
+
+	}
+
+}

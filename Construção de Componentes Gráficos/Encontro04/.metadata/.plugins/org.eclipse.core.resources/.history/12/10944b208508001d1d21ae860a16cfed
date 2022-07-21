@@ -1,0 +1,31 @@
+package controles;
+
+import modelos.persistencia.BancoAluno;
+
+public class ControleAluno {
+	
+	private BancoAluno banco;
+	
+	public ControleAluno() {
+		banco = new BancoAluno();
+	}
+
+	public void incluir(String matricula, String nome) {
+		
+		
+
+	}
+
+	public void excluir(String matricula, String nome) {
+
+	}
+
+	public void alterar(String matricula, String nome) {
+
+	}
+
+	public void consultar(String matricula, String nome) {
+
+	}
+
+}
