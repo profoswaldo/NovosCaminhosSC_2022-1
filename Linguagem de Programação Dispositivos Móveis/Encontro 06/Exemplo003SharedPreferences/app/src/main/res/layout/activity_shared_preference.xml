@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SharedPreferenceActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Usuário:" />
+
+            <EditText
+                android:id="@+id/shared_preference_login_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:hint="Digite seu usuário" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Senha :" />
+
+            <EditText
+                android:id="@+id/shared_preference_login_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:hint="Digite sua senha"
+                android:password="true" />
+
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/shared_preference_remember_account"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lembrar Login e Senha." />
+
+        <Button
+            android:id="@+id/shared_preference_verify_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Logar" />
+
+        <Button
+            android:id="@+id/shared_preference_remove_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Remover Senha:" />
+
+        <Button
+            android:id="@+id/shared_preference_clear_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Apagar Dados salvos" />
+
+        <Button
+            android:id="@+id/shared_preference_reload_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Carregar Dados Login" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
