@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;Exemplo001 - BoderLayout&apos; to &apos;Exemplo001 - FlowLayout&apos;&#x0D;&#x0A;- Original element: &apos;Exemplo001 - BoderLayout&apos;&#x0D;&#x0A;- Renamed element: &apos;Exemplo001 - BoderLayout&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;Exemplo001 - BoderLayout&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=Exemplo001 - BoderLayout" name="Exemplo001 - FlowLayout" references="true" stamp="1659565096546" version="1.0"/>
+</session>

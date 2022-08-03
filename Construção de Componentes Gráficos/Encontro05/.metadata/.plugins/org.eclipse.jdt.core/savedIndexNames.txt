@@ -1,0 +1,11 @@
+INDEX VERSION 1.131+C:\Users\Oswaldo Peres\Documents\Aulas\Aulas 2022\Aulas 2022-1\Pronatec SC\Exemplos de Sala de Aula\Construção de Interfaces Graficas\Encontro05\.metadata\.plugins\org.eclipse.jdt.core
+1403908020.index
+1509799344.index
+3273088106.index
+4051748390.index
+4257578533.index
+3966544.index
+1865797976.index
+2924746689.index
+3557673687.index
+2053462854.index

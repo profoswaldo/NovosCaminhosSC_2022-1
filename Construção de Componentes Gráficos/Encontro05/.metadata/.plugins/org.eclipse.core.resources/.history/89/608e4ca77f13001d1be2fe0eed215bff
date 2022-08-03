@@ -1,0 +1,15 @@
+
+
+import javax.swing.JFrame;
+
+
+public class TelaAluno extends JFrame {
+
+
+	public TelaAluno() {
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(100, 100, 450, 300);
+
+	}
+
+}

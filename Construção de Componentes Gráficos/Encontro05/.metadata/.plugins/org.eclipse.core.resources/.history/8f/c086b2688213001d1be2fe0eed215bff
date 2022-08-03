@@ -1,0 +1,37 @@
+package visao;
+
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+
+
+public class TelaAluno extends JFrame {
+
+	private JButton btnIncluir;
+	private JButton btnExcluir;
+	private JButton btnAlterar;
+	private JButton btnConsultar;
+	private JButton btnLimpar;
+	private JButton btnSair;
+
+	public TelaAluno() {
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(100, 100, 450, 300);
+
+	}
+	
+	private void inicializarComponentes() {
+		
+		btnIncluir = new JButton("Incluir");
+		btnExcluir = new JButton("Excluir");
+		btnAlterar = new JButton("Alterar");
+		btnConsultar = new JButton("Consultar");
+		btnLimpar = new JButton("Limpar");
+		btnSair = new JButton("Sair");
+	}
+	
+	
+	
+	
+
+}
