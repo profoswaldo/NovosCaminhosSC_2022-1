@@ -1,0 +1,55 @@
+import javax.swing.JFrame;
+import javax.swing.JMenu;
+import javax.swing.JMenuBar;
+import javax.swing.JMenuItem;
+import javax.swing.JOptionPane;
+import javax.swing.JSeparator;
+
+public class Tela extends JFrame {
+
+
+	public Tela() {
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(100, 100, 450, 300);
+		
+		JMenuBar menuBar = new JMenuBar();
+		setJMenuBar(menuBar);
+		
+		JMenu mnuOperacoesMatematicas = new JMenu("Operações");
+		menuBar.add(mnuOperacoesMatematicas);
+		
+		JMenuItem mnuSomar = new JMenuItem("Somar");
+		mnuOperacoesMatematicas.add(mnuSomar);
+		
+		JMenuItem mnuSubtrair = new JMenuItem("Subtrair");
+		mnuOperacoesMatematicas.add(mnuSubtrair);
+		
+		JMenuItem mnuMultiplicar = new JMenuItem("Multiplicar");
+		mnuOperacoesMatematicas.add(mnuMultiplicar);
+		
+		JMenuItem mnuDividir = new JMenuItem("Dividir");
+		mnuOperacoesMatematicas.add(mnuDividir);
+		
+		JSeparator separator = new JSeparator();
+		mnuOperacoesMatematicas.add(separator);
+		
+		JMenuItem mnuLimpar = new JMenuItem("Limpar");
+		mnuOperacoesMatematicas.add(mnuLimpar);
+		
+		JMenuItem mnuSair = new JMenuItem("Sair");
+		mnuOperacoesMatematicas.add(mnuSair);
+		
+		JMenu mnuAjuda = new JMenu("Ajuda");
+		menuBar.add(mnuAjuda);
+		
+		JMenuItem mnuSobre = new JMenuItem("Sobre");
+		mnuAjuda.add(mnuSobre);
+	}
+	
+	
+	private void sair() {
+		JOptionPane.showMessageDialog(rootPane, "Até mais ver");
+		dispose();
+	}
+
+}

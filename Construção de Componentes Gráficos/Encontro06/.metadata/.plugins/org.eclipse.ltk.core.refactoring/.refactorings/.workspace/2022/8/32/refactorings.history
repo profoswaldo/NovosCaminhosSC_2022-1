@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Exemplo008 - BorderLayout e FlowLayout&apos; to &apos;Exemplo002 - BorderLayout e FlowLayout&apos;" description="Rename resource &apos;Exemplo008 - BorderLayout e FlowLayout&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/Exemplo008 - BorderLayout e FlowLayout" name="Exemplo002 - BorderLayout e FlowLayout" stamp="1659737236060" updateReferences="true"/>
+</session>

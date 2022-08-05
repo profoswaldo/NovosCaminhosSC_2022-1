@@ -1,0 +1,104 @@
+import java.awt.BorderLayout;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JMenu;
+import javax.swing.JMenuBar;
+import javax.swing.JMenuItem;
+import javax.swing.JOptionPane;
+import javax.swing.JPanel;
+import javax.swing.JSeparator;
+import javax.swing.JTextField;
+import javax.swing.SwingConstants;
+import java.awt.Font;
+
+public class Tela extends JFrame {
+	private JTextField txtValor1;
+	private JTextField txtValor2;
+	private JTextField txtValor3;
+	private JPanel painelCentro;
+	private JLabel titulo;
+
+
+	public Tela() {
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(100, 100, 450, 300);
+		
+		painelCentro = new JPanel();
+		getContentPane().add(painelCentro, BorderLayout.CENTER);
+		
+		titulo = new JLabel("Calculadora monstrenga");
+		titulo.setFont(new Font("Segoe UI Black", Font.PLAIN, 21));
+		titulo.setHorizontalAlignment(SwingConstants.CENTER);
+		getContentPane().add(titulo, BorderLayout.NORTH);
+		
+		JMenuBar menuBar = new JMenuBar();
+		setJMenuBar(menuBar);
+		
+		JMenu mnuOperacoesMatematicas = new JMenu("Operações");
+		menuBar.add(mnuOperacoesMatematicas);
+		
+		JMenuItem mnuSomar = new JMenuItem("Somar");
+		mnuOperacoesMatematicas.add(mnuSomar);
+		
+		JMenuItem mnuSubtrair = new JMenuItem("Subtrair");
+		mnuOperacoesMatematicas.add(mnuSubtrair);
+		
+		JMenuItem mnuMultiplicar = new JMenuItem("Multiplicar");
+		mnuOperacoesMatematicas.add(mnuMultiplicar);
+		
+		JMenuItem mnuDividir = new JMenuItem("Dividir");
+		mnuOperacoesMatematicas.add(mnuDividir);
+		
+		JSeparator separator = new JSeparator();
+		mnuOperacoesMatematicas.add(separator);
+		
+		JMenuItem mnuLimpar = new JMenuItem("Limpar");
+		mnuOperacoesMatematicas.add(mnuLimpar);
+		
+		JMenuItem mnuSair = new JMenuItem("Sair");
+		mnuSair.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				sair();
+			}
+		});
+		
+		mnuOperacoesMatematicas.add(mnuSair);
+		
+		JMenu mnuAjuda = new JMenu("Ajuda");
+		menuBar.add(mnuAjuda);
+		
+		JMenuItem mnuSobre = new JMenuItem("Sobre");
+		mnuAjuda.add(mnuSobre);
+		
+		JLabel lblValor1 = new JLabel("Valor 1:");
+		painelCentro.add(lblValor1);
+		
+		txtValor1 = new JTextField();
+		painelCentro.add(txtValor1);
+		txtValor1.setColumns(10);
+		
+		JLabel lblValor2 = new JLabel("Valor 2:");
+		painelCentro.add(lblValor2);
+		
+		txtValor2 = new JTextField();
+		painelCentro.add(txtValor2);
+		txtValor2.setColumns(10);
+		
+		JLabel lblValor3 = new JLabel("Resultado:");
+		painelCentro.add(lblValor3);
+		
+		txtValor3 = new JTextField();
+		painelCentro.add(txtValor3);
+		txtValor3.setColumns(10);
+	}
+	
+	
+	private void sair() {
+		JOptionPane.showMessageDialog(rootPane, "Até mais ver");
+		dispose();
+	}
+
+}
